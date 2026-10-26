@@ -66,7 +66,7 @@
     '॥ श्री गणेशाय नमः ॥', 'साखरपुडा समारंभ',
     'चि. सौ. कां. अंकिता व चि. मृगेश',
     'शनिवार, १४-११-२०२६, सायंकाळी ६:०० वा.',
-    'सुनंदाताई लोकेगावकर हॉल, अभ्युदय नगर, मुंबई - ४०००३३',
+    'सुनंदाताई लोकेगावकर हॉल, शिवाजी विद्यालय लेन, काळाचौकी, मुंबई - ४०००३३',
     'आपली उपस्थिती प्रार्थनीय आहे', '– समस्त देसाई परिवार', ''
   ].join('\n');
   $('#wa').href = 'https://wa.me/?text=' + encodeURIComponent(msg + location.href.split('#')[0]);
@@ -76,7 +76,7 @@
       'UID:sakharpuda-20261114@invitation', 'DTSTAMP:20261025T000000Z',
       'DTSTART;TZID=Asia/Kolkata:20261114T180000',
       'SUMMARY:साखरपुडा समारंभ – अंकिता & मृगेश',
-      'LOCATION:सुनंदाताई लोकेगावकर हॉल\\, अभ्युदय नगर\\, मुंबई - ४०००३३',
+      'LOCATION:सुनंदाताई लोकेगावकर हॉल\\, शिवाजी विद्यालय लेन\\, काळाचौकी\\, मुंबई - ४०००३३',
       'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
     const a = document.createElement('a');
     a.href = URL.createObjectURL(new Blob([ics], { type: 'text/calendar;charset=utf-8' }));
